@@ -3,24 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens de Fundo</title>
+    <title>Fundo fix de tela</title>
     <style>
         body {
+            /*
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             text-align: justify;
             background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover; /* auto contain cover */
+            background-size: cover; /* auto contain cover
+            background-attachment: fixed;
+            /*
+
+            /* Shorthand - Background 
+                color > image > position > repeat > [size] > attachment
+                - O parâmetro size ainda não esta funcionando.
+            */
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
+            background-size: cover;
+
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+            text-align: justify;
         }
     </style>
 </head>
