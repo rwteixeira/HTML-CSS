@@ -17,7 +17,7 @@ Grandes telas: acima de 1200px
         font-family: 'Courier New', Courier, monospace;
     }
     body {
-        background-image: url(../imagens/back-print.jpg); /* Desnecessário */
+        /* background-image: url(../imagens/back-print.jpg); /* Desnecessário */
     }
     main {
         width: 90vw;
