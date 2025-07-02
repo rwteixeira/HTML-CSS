@@ -4,32 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
-    <STYLe>
+    <style>
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: darkmagenta;
+            padding: 10px;
+            color: white;
+            text-shadow: 1px 1px 5px black;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
         div.conteiner {
-            background-color: lightsalmon;
-
-
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white
+            padding: 5px;
+            
+            
             display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.cab {
+            background-color: lightpink;
+            font-weight: bolder;
+            text-align: center;
+            border: 1px solid rgb(172, 172, 172);
+            padding: 5px;
+
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+
         }
 
         div.item {
-            background-color: lightblue;
-            border: 1px solid black;
-
-            text-align: center;
-            flex: auto;
+            background-color: rgb(219, 194, 252);
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            padding: 5px;
+            font-size: 0.9em;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+            border: 1px solid rgb(172, 172, 172);
         }
-    </STYLe>
+    </style>
 </head>
 <body>
+    <div>
+        <h1>FlexBox - Teste</h1>
+    </div>
+
+
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nobis fugit iusto expedita. Laudantium vel modi, reiciendis perferendis id, quis nesciunt error ipsum fugiat distinctio fuga et quae velit autem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores dolores ipsa eligendi nemo amet laborum excepturi doloribus dignissimos, modi animi facilis error enim sequi odio, quaerat hic placeat omnis maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quis nobis dolorum repudiandae. Doloribus, deleniti. Quas mollitia, eveniet accusamus voluptas aut dignissimos temporibus officia iusto deserunt, illo porro deleniti nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eos debitis! Voluptate fugiat a eius quidem quia. Quibusdam illo molestiae dolores consequuntur odit nostrum, eius expedita minus aliquam quidem nisi.</p>
+    </div>
+    <div class="conteiner">
+        <div class="cab">Política</div>
+        <div class="cab">Esporte</div>
+        <div class="cab">Tecnologia</div>
+    </div>
+    <div class="conteiner">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero officiis ratione excepturi ut qui repellendus, delectus illum, provident neque fugiat, repellat aliquid eligendi saepe ab dolore ad error ex voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut ad ullam. Similique, beatae quidem nesciunt perspiciatis recusandae quaerat porro vel, sapiente quod totam, quae culpa consequatur voluptatibus nisi! Assumenda! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex officiis ipsam esse eum deleniti! Eaque temporibus minima molestiae numquam cumque asperiores nobis dicta quasi explicabo voluptates dolorem unde, error omnis?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quasi illo. Harum aliquid, molestias facere assumenda aperiam deserunt! Pariatur maiores nesciunt, aspernatur deleniti amet quo vel excepturi nemo deserunt id.</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum recusandae voluptates incidunt iusto! Animi deleniti consequatur nisi autem omnis voluptatem aperiam possimus eligendi similique nulla? Amet atque deserunt cumque officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos illum pariatur, aliquam earum ipsa harum neque nam? Dignissimos eligendi hic repellendus consectetur impedit suscipit unde earum eum excepturi omnis!</div>
     </div>
 </body>
 </html>
