@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: darkmagenta;
+            padding: 10px;
+            color: white;
+            text-shadow: 1px 1px 5px black;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        div.conteiner {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white
+            padding: 5px;
+            
+            
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item {
+            background-color: rgb(219, 194, 252);
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            
+        }
+
+        div#cxA {
+
+
+            flex: 1 0 200px;
+        }
+
+        div#cxB {
+
+
+            flex: 1 1 200px;
+        }
+
+        div#cxC {
+
+
+            flex: 1 8 200px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>FlexBox - Teste</h1>
+    </div>
+
+    <div class="conteiner">
+        <div class="item" id="cxA">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero officiis ratione excepturi ut qui repellendus, delectus illum, provident neque fugiat, repellat aliquid eligendi saepe ab dolore ad error ex voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut ad ullam. Similique, beatae quidem nesciunt perspiciatis recusandae quaerat porro vel, sapiente quod totam, quae culpa consequatur voluptatibus nisi! Assumenda! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex officiis ipsam esse eum deleniti! Eaque temporibus minima molestiae numquam cumque asperiores nobis dicta quasi explicabo voluptates dolorem unde, error omnis?</div>
+
+        <div class="item" id="cxB">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quasi illo. Harum aliquid, molestias facere assumenda aperiam deserunt! Pariatur maiores nesciunt, aspernatur deleniti amet quo vel excepturi nemo deserunt id.</div>
+
+        <div class="item" id="cxC">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum recusandae voluptates incidunt iusto! Animi deleniti consequatur nisi autem omnis voluptatem aperiam possimus eligendi similique nulla? Amet atque deserunt cumque officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos illum pariatur, aliquam earum ipsa harum neque nam? Dignissimos eligendi hic repellendus consectetur impedit suscipit unde earum eum excepturi omnis!</div>
+    </div>
+</body>
+</html>
