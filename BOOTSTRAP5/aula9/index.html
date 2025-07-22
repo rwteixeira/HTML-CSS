@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+
+
+    <title>Imagens e Figuras</title>
+</head>
+<body>
+ <!-- DECLARAÇÃO - div.container>rect.img-fluid[src="img.svg"] -->
+    <div class="container">
+        <!-- Imagem Fluída -->
+        <img src="/aula9/imagens/rect.svg" alt="Imagem Responsiva" class="img-fluid">
+        <hr>
+
+        <!-- Imagem Thumbnail -->
+        <img src="/aula9/imagens/rect.svg" alt="Imagem Responsiva" class="img-thumbnail">
+        <hr>
+
+        <!-- Combinação de Fluída com Thumbnail -->
+        <img src="/aula9/imagens/rect.svg" alt="Imagem Responsiva" class="img-fluid img-thumbnail">
+        <hr>
+
+        <!-- Imagem Fluid com Rounded -->
+        <img src="/aula9/imagens/rect.svg" alt="Imagem Responsiva" class="img-fluid rounded">
+        <hr>
+
+        <!-- Espaço entre a imagem e o texto class="me-3" -->
+        <img src="imagens/quad.svg" alt="" class="img-thumbnail float-start me-3">
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ex dolores repellendus molestiae quae sequi ratione, veniam voluptatibus rem earum repudiandae nihil magni amet accusantium perspiciatis nulla. Soluta, fugiat! Libero maiores itaque cupiditate debitis at voluptatibus nihil? Cum iusto fugit, atque ab repellat natus deserunt amet magni omnis harum accusantium beatae? Molestias aliquid quaerat eius reprehenderit, aut sunt minima inventore nam dolorem quia repellendus minus, nesciunt nisi in labore dolorum fugiat exercitationem consequuntur. Unde aut dignissimos dolores blanditiis fuga atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reprehenderit quae exercitationem quam. Sint, expedita ullam, sit amet quam aliquid, hic molestias ipsum odio asperiores omnis cum ducimus quas. Quos!</p>
+        <br>
+        <hr>
+
+        <!-- Espaço entre a imagem e o texto class="ms-3" -->
+        <img src="imagens/quad.svg" alt="" class="rounded float-end ms-3">
+        <p class="lead text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ex dolores repellendus molestiae quae sequi ratione, veniam voluptatibus rem earum repudiandae nihil magni amet accusantium perspiciatis nulla. Soluta, fugiat! Libero maiores itaque cupiditate debitis at voluptatibus nihil? Cum iusto fugit, atque ab repellat natus deserunt amet magni omnis harum accusantium beatae? Molestias aliquid quaerat eius reprehenderit, aut sunt minima inventore nam dolorem quia repellendus minus, nesciunt nisi in labore dolorum fugiat exercitationem consequuntur. Unde aut dignissimos dolores blanditiis fuga atque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reprehenderit quae exercitationem quam. Sint, expedita ullam, sit amet quam aliquid, hic molestias ipsum odio asperiores omnis cum ducimus quas. Quos!</p>
+        <br>
+        <hr>
+    </div>
+        <!-- FIGURAS  - Legenda abaixo da figura -->
+    <div class="container text-center">
+        <figure class="figure">
+            <img src="imagens/quad.svg" alt="Quadrado" class="img-fluid rounded">
+            <figcaption class="figcapition text-center">Legenda da Figura</figcaption>
+        </figure>
+        <br>
+        <hr>
+        <!-- FIGURAS - Legenda acima da figura -->
+        <figure class="figure"><figcaption class="figcapition text-start">Legenda da Figura</figcaption>
+            <img src="imagens/rect.svg" alt="Quadrado" class="img-fluid rounded">
+            
+        </figure>
+
+    </div>
+        <hr>
+
+
+    <h6><a href="/index.html">Voltar ao Início</a></h6>
+</body>
+</html>

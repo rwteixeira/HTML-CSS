@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <title>Propriedades dos Campos</title>
+</head>
+<body>
+    <div class="container p-5">
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" id="email"
+                 class="form-control form-control" placeholder="Digite seu e-mail">
+                 <!-- readonly value="email@email.com" ou só readonly -->
+                <div class="form-text">Nunca compartilharemos seu e-mail com terceiros.</div>
+            </div>
+
+            <!--
+                As classes form-control-sm, form-control-md e form-control-lg
+                são usadas para definir o tamanho do campo de entrada.
+            -->
+
+            <!--
+                A class form-control form-control-plaintext é usada para campos de texto
+                que não são editáveis, mas ainda exibem o valor. Útil para exibir informações
+                que não precisam ser alteradas pelo usuário.
+            -->
+
+            <div class="mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="text" id="senha"class="form-control">
+            </div>
+
+            <div class="mb-3 form-check">
+                
+                <input type="checkbox" id="lembrar" class="form-check-input">
+                <label for="lembrar" class="form-check-label">Lembrar de mim</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+        <hr>
+        <input type="file" id="arquivo" class="form-control">
+        <input type="color" id="cor" class="form-control">
+        <hr>
+        <div class="mb-3">
+            <label for="" class="form-label">Cidade:</label>
+            <input type="text" class="form-control"
+            list="cidades" placeholder="Digite para buscar.">
+        <datalist id="cidades">
+            <option value="Maringá"></option>
+            <option value="Curitiba"></option>
+            <option value="Joinville"></option>
+            <option value="São Paulo"></option>
+            <option value="Umuarama"></option>
+            <option value="Campo Mourão"></option>
+        </datalist>
+        </div>
+    </div>
+    <h6><a href="/index.html" class="container">Voltar ao Início</a></h6>
+</body>
+</html>

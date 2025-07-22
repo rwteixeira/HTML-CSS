@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    
+
+    <title>Margens Internas e Externas</title>
+
+    <!-- Ref: https://www.youtube.com/watch?v=ME4Qjc_Prkk&list=PL0YuSuacUEWuJN3qb6NP15bzqd8w_oAj7&index=14
+    - Margens externas são configuráveis através da propriedade "margin" (margem) e margens internas através da propriedade "padding" (preenchimento).
+    - Classe m-0 até m-5. Onde, m-0 é margem 0, m-1 é margem 0.25rem, m-2 é margem 0.5rem, m-3 é margem 1rem, m-4 é margem 1.5rem e m-5 é margem 3rem.
+    - Para definir a posição das margens: ms-0 (margem esquerda), me-0 (margem direita), mt-0 (margem superior), mb-0 (margem inferior) e mx-0 (margem horizontal).
+    - definições do padding: p-0 (padding 0), p-1 (padding 0.25rem), p-2 (padding 0.5rem), p-3 (padding 1rem), p-4 (padding 1.5rem) e p-5 (padding 3rem).
+    - Para definir a posição do padding: ps-0 (padding esquerdo), pe-0 (padding direito), pt-0 (padding superior), pb-0 (padding inferior) e px-0 (padding horizontal).
+    - As classes de margem e padding podem ser combinadas, como por exemplo: m-4 p-3, que aplica uma margem de 1.5rem e um padding de 1rem.
+    - As classes de margem e padding também podem ser aplicadas a elementos específicos, como por exemplo: <p class="m-4">Texto com margem</p> e <div class="p-3">Div com padding</div>.
+    - As classes de margem e padding são úteis para criar espaçamento entre elementos, como por exemplo: <div class="m-4">Div com margem</div> e <p class="p-3">Parágrafo com padding</p>.
+    - As classes de margem e padding também podem ser usadas para criar layouts responsivos, como por exemplo: <div class="m-4 p-3">Div com margem e padding</div> que se adapta a diferentes tamanhos de tela.
+    -->
+</head>
+<body>
+    <div class="container">
+        <p class="text-bg-dark m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repudiandae ab accusantium qui suscipit corporis velit odio. Earum, cum magnam?</p>
+        <p class="text-bg-dark my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repudiandae ab accusantium qui suscipit corporis velit odio. Earum, cum magnam?</p>
+        <p class="text-bg-dark m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repudiandae ab accusantium qui suscipit corporis velit odio. Earum, cum magnam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi excepturi sit debitis, sint numquam perspiciatis recusandae ullam quisquam consequatur. Optio, recusandae dolores! Ipsum nulla sint ut voluptates eos alias cupiditate.</p>
+    </div>
+
+    <div class="container bg-secondary">
+        <div class="bg-primary col-4 p-5">
+
+        </div>
+        <br>
+        <div class="bg-primary col-4 p-5 mx-auto">
+            
+        </div>
+        <br>
+    </div>
+
+    <h6><a href="/index.html">Voltar ao Início</a></h6>
+</body>
+</html>
