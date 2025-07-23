@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+}
+
+.form-container {
+    max-width: 350px;
+    padding: 1rem;
+}
+
+.custom-title {
+  font-family: 'Cairo Play', serif;
+}
